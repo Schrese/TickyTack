@@ -5,7 +5,7 @@ import {calculateWinner} from '../helpers.js';
 
 
 const styles = {
-    width: '200px',
+    width: '100px',
     margin: '20px auto'
 }
 

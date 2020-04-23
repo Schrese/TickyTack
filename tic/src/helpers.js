@@ -19,6 +19,13 @@ export function calculateWinner(squares) {
             return squares[a] // a, b, and c will either be an x or an o, so that's what we're returning
         }
     }
+    for (let i = 0; i < lines.length; i++) {
+        const [a, b, c] = lines[i];
+
+        if (squares[a] && squares[a] === squares[b] && squares[a] === squares[c]) {
+            return squares[a] // a, b, and c will either be an x or an o, so that's what we're returning
+        }
+    }
     return null
 }
 
