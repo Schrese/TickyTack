@@ -5,8 +5,8 @@ import {calculateWinner} from '../helpers.js';
 
 
 const styles = {
-    width: '300px',
-    margin: '20px auto'
+    width: '1000px',
+    margin: '2px auto'
 }
 
 const Game = () => {
